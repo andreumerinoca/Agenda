@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background_title"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/titleAgendaVirtual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AYUDA Y OPCIONES"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/gestionButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/blue_deep"
+        android:text="GESTIONAR CUENTA" />
+
+    <Button
+        android:id="@+id/enviarButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/blue_deep"
+        android:text="ENVIAR COMENTARIOS" />
+
+    <Button
+        android:id="@+id/soporteButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/blue_deep"
+        android:text="SOPORTE TÉCNICO" />
+
+    <Button
+        android:id="@+id/fondoButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/blue_deep"
+        android:text="CAMBIAR FONDO DE PANTALLA" />
+
+    <Button
+        android:id="@+id/notificacionesButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/blue_deep"
+        android:text="NOTIFICACIONES" />
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="@color/blue_deep"
+        android:text="Salir" />
+</LinearLayout>

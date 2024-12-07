@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#0000FF</color>
+    <!-- Azul oscuro estándar -->
+    <color name="blue_dark">#1565C0</color>
+
+    <!-- Azul marino -->
+    <color name="blue_navy">#003366</color>
+
+    <!-- Azul profundo -->
+    <color name="blue_deep">#0D47A1</color>
+
+    <!-- Azul midnight -->
+    <color name="blue_midnight">#121FCF</color>
+
+    <color name="blue_light">#03A9F4</color>
+</resources>
